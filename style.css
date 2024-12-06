@@ -1,0 +1,53 @@
+* {
+    font-family: "Coiny";
+}
+
+
+body {
+    background-color:#460067;
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+
+.welcome {
+    font-family: "Coiny";
+    display:grid;
+    color:#460067;
+    background-color: whitesmoke;
+    text-align: center;
+    font-size: large;
+    text-decoration:underline;
+}
+
+.menu {
+    font-family: "Modak";
+    display: flex;
+    background:white;
+    color:purple;
+    text-align: center;
+ }
+
+footer{
+    background-color: whitesmoke;
+    display: ruby;
+    color: #460067;
+    
+}
+
+.btn-social{
+    display: flex;
+}
+
+.btn-social a{
+    display: flex;
+    padding: 2px;
+    background-color:#460067;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+.imagem img{
+    margin-top: 8px ;
+    
+
+}
