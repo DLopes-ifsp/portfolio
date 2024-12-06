@@ -5,8 +5,9 @@
 
 body {
     background-color:#460067;
-    background-repeat: no-repeat;
+    background-repeat:repeat;
     background-size: auto;
+    display: initial;
 }
 
 .welcome {
@@ -20,19 +21,14 @@ body {
 }
 
 .menu {
-    font-family: "Modak";
     display: flex;
-    background:white;
-    color:purple;
+    justify-content: center;
+    justify-items: stretch;
+    flex-direction: row;
+    background:whitesmoke;
     text-align: center;
+    border-radius: 20px;
  }
-
-footer{
-    background-color: whitesmoke;
-    display: ruby;
-    color: #460067;
-    
-}
 
 .btn-social{
     display: flex;
@@ -44,6 +40,14 @@ footer{
     background-color:#460067;
     cursor: pointer;
     border-radius: 8px;
+}
+
+
+footer{
+    background-color: whitesmoke;
+    display: ruby;
+    color: #460067;
+    
 }
 
 .imagem img{

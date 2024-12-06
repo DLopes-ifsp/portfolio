@@ -3,7 +3,7 @@
 }
 
 body {
-    background-color: #460067;
+    background-color:#460067;
     background-repeat: no-repeat;
     background-size: auto;
 }
@@ -44,8 +44,7 @@ footer{
 }
 
 .autobiografia{
-    color:#460067;
-    background-color: whitesmoke;
+    color:#ffffff;
 }
 
 .titulo{
